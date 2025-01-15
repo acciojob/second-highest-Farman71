@@ -5,7 +5,7 @@
 </head>
 <body>	
 	<script>
-		function secondHighest(arr) {
+function secondHighest(arr) {
     arr = arr.map(Number);
     arr.sort((a, b) => b - a);
     
@@ -15,7 +15,7 @@
             return arr[i];
         }
     }
-    return "-Infinity";
+    return -Infinity; // returning numeric value -Infinity
 }
 		function Main() {
 			var n = prompt("Enter the number of elements");
